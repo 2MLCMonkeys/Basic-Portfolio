@@ -13,7 +13,7 @@ body {
 header {
     background: #ffffff;
     border-bottom-style: solid;
-    border-bottom-width: 2px;
+    border-bottom-width: 1px;
     border-bottom-color: #cccccc;
     width: 100%;
     margin-top: 0;
@@ -34,7 +34,7 @@ header {
     margin: 0 auto;
     border-style: solid;
     border-color: #dddddd;
-    border-width: 2px;
+    border-width: 1px;
     margin-top: 135px;
     padding-top: 30px;
     padding-bottom: 30px;
@@ -122,10 +122,14 @@ hr{
 
 p {
     padding-top: 20px;
-    line-height: 24px;
-    font-size: 15px;
+    line-height: 26px;
+    font-size: 14px;
     margin-top: 0px;
-    padding-right: 30px;=}
+    padding-right: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+
 
 footer{
     clear: both;
