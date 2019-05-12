@@ -1,24 +1,142 @@
-body {
-
+* {
+    border-sizing: border-box;
 }
 
-div{
+body {
+    color: #777777;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(../images/fishnets-and-hearts.png);
+    background-repeat: repeat;
+    
+}
+
+header {
+    background: #ffffff;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    border-bottom-color: #cccccc;
+    width: 100%;
+    margin-top: 0;
+    margin-bottom: 50px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    height: 96px;
+}
+
+.top{
     width: 960px;
     margin: 0 auto;
 }
 
-#name {
+.content{
+    width: 960px;
+    margin: 0 auto;
+    border-style: solid;
+    border-color: #dddddd;
+    border-width: 2px;
+    margin-top: 135px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background: #ffffff;
+    margin-bottom: 100px;
+}
 
+#name {
+    background: #4aaaa5;
+    color: #ffffff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    float:left;
+    padding: 30px;
+    margin-top: 0;
+    position: fixed;
+    top: 0px;
+}
+
+li {
+    display: inline;
+}
+
+a:hover{
+    color: #4aaaa5;
+    font-size: 16px;
+}
+
+a {
+    color: #777777;
+}
+
+#link1 {
+    float:right;
+    font-size: 14px;
+    padding-left: 15px;
+    padding-right: 0px;
+}
+
+#link2 {
+    float:right;
+    border-right-style: solid;
+    border-right-width: 2px;
+    border-right-color: #cccccc;
+    font-size: 14px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#link3 {
+    float:right;
+    border-right-style: solid;
+    border-right-width: 2px;
+    border-right-color: #cccccc;
+    font-size: 14px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 section{
-
+    clear: both;
+    overflow: auto;
+    margin-left: 30px;
 }
 
-#about{
+hr{
+    color: #777777;
+    width: 96.5%;
+    margin-left: 0px;
+} 
 
+#about{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #4aaaa5;
+    margin-top: 0px;
 }
 
 #selfie{
-    width: 100px;
+    width: 180px;
+    float: left;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 0px;
+}
+
+p {
+    padding-top: 20px;
+    line-height: 24px;
+    font-size: 15px;
+    margin-top: 0px;
+    padding-right: 30px;=}
+
+footer{
+    clear: both;
+    overflow: auto;
+    background: #666666;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    border-top-style: solid;
+    border-top-width: 5px;
+    border-top-color: #4aaaa5;
+    height: 55px;
 }
