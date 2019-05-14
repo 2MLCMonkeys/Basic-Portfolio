@@ -19,6 +19,7 @@ header {
     margin-top: 0;
     margin-bottom: 50px;
     position: fixed;
+    z-index: 1;
     top: 0px;
     left: 0px;
     height: 96px;
@@ -172,3 +173,35 @@ footer{
     margin: 4px 2px;
     cursor: pointer;
 }
+
+img {
+    width: 100%;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: #ffffff;
+    width: 31%;
+    float:left;
+    margin-right: 25px;
+    margin-bottom: 35px;
+}
+
+.container2 {
+    position: relative;
+    text-align: center;
+    color: #ffffff;
+    width: 31%;
+}
+
+.label {
+    position: absolute;
+    bottom: 10px;
+    left: 0px;
+    right: 0px;
+    background-color: #4aaaa5;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
