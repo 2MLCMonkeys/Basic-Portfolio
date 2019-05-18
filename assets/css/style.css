@@ -48,10 +48,12 @@ header {
     color: #ffffff;
     font-family: Georgia, 'Times New Roman', Times, serif;
     float:left;
-    padding: 30px;
+    padding: 33px;
     margin-top: 0;
     position: fixed;
     top: 0px;
+    font-size: 22pt;
+    font-weight: bold;
 }
 
 li {
@@ -112,6 +114,8 @@ hr{
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: #4aaaa5;
     margin-top: 0px;
+    font-size: 22pt;
+    font-weight: bold;
 }
 
 #selfie{
@@ -146,6 +150,10 @@ footer{
     border-top-width: 5px;
     border-top-color: #4aaaa5;
     height: 55px;
+    font-size: 10pt;
+    color: #cccccc;
+    text-align: center;
+    vertical-align: bottom;
 }
 
 .input1 {
@@ -153,12 +161,14 @@ footer{
     margin-top: 5px;
     margin-bottom: 5px;
     color: #777777;
+    padding: 3pt;
 }
 
 #message {
     width: 96.5%;
     height: 150px;
     margin-top: 5px;
+    padding: 3pt;
 }
 
 #button {
