@@ -7,7 +7,7 @@ In this assignment, you'll build a professional portfolio site using HTML/CSS. T
 ## Deployed Link
 [Basic Portfolio](https://2mlcmonkeys.github.io/Basic-Portfolio/)
 
-### Useage
+### Usage
 - HTML
 - CSS
 
